@@ -3,6 +3,8 @@ __Dr. Yasir Bashir__
 
 Geoscienitst & Professor at Istanbul Technical University, Turkey
 
+__Description of Repository__
+
 This repository presents a Python-based workflow for generating a synthetic seismic section using fundamental principles of reflection seismology. The script demonstrates how to construct a reflectivity model, simulate seismic wave propagation through convolution with a wavelet, and visualize the resulting seismic data.
 
 The code creates a 2D seismic dataset (time vs. trace) in which the words “EID MUBARAK” or "IYI BAYRAMLAR" and a signature “DYB” are embedded as high-reflectivity features. These features are then transformed into realistic seismic responses through wavelet convolution and noise addition.
