@@ -7,11 +7,11 @@ The code creates a 2D seismic dataset (time vs. trace) in which the words “EID
 
 The workflow follows the classical convolutional seismic model:
 
-1- Seismic Canvas Creation
+__1- Seismic Canvas Creation__
   
   A 2D array is initialized to represent the seismic section, with small random values simulating background geological reflectivity.
   
-2- Text-Based Reflectivity Modeling
+__2- Text-Based Reflectivity Modeling__
   
   The words are rendered using the Pillow (PIL) library and converted into a binary mask.
   
@@ -19,21 +19,21 @@ The workflow follows the classical convolutional seismic model:
       
    Background pixels retain low-amplitude random values.
       
-3- Wavelet Generation
+__3- Wavelet Generation__
   
   A 30 Hz Ricker wavelet is generated to simulate the seismic source signature.
   
-4- Convolution (Forward Modeling)
+__4- Convolution (Forward Modeling)__
   
   Each trace is convolved with the wavelet to produce realistic seismic reflections, including characteristic sidelobes.
   
-5- Noise Addition
+__5- Noise Addition__
   Gaussian noise is added to simulate real-world acquisition conditions and improve realism.
   
-6- Amplitude Normalization
+__6- Amplitude Normalization__
   
   The seismic amplitudes are scaled to a standard range for consistent visualization.
   
-7- Visualization
+__7- Visualization__
  
   The final seismic section is displayed using a diverging colormap (e.g., RdBu), where positive and negative amplitudes represent seismic polarity.
