@@ -3,7 +3,7 @@ This repository presents a Python-based workflow for generating a synthetic seis
 
 The code creates a 2D seismic dataset (time vs. trace) in which the words “EID MUBARAK” or "IYI BAYRAMLAR" and a signature “DYB” are embedded as high-reflectivity features. These features are then transformed into realistic seismic responses through wavelet convolution and noise addition.
 
-⚙️ Methodology
+⚙️ __Methodology__
 
 The workflow follows the classical convolutional seismic model:
 
