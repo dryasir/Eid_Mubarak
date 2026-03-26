@@ -1,7 +1,7 @@
 # Eid Mubarak
 __Dr. Yasir Bashir__
 
-Geoscienitst & Professor at Istanbul Technical University, Turkey
+Geoscientist & Professor at Istanbul Technical University, Turkey
 
 __Description of Repository__
 
