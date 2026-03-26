@@ -15,9 +15,9 @@ The workflow follows the classical convolutional seismic model:
   
   The words are rendered using the Pillow (PIL) library and converted into a binary mask.
   
-      Pixels corresponding to the text are assigned high reflectivity values.
+    Pixels corresponding to the text are assigned high reflectivity values.
       
-      Background pixels retain low-amplitude random values.
+   Background pixels retain low-amplitude random values.
       
 3- Wavelet Generation
   
